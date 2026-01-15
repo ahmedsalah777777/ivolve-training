@@ -1,13 +1,25 @@
-# iVolve Training Labs
+# iVolve Cloud DevOps Accelerator – Hands-On Labs
 
-This repository contains three labs:
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Maven](https://img.shields.io/badge/Maven-Build-blue)
+![Gradle](https://img.shields.io/badge/Gradle-Build-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
+![Git](https://img.shields.io/badge/Git-Version_Control-red)
 
-## Lab 1 – Gradle
-Build and package a Java application using Gradle.
+---
 
-## Lab 2 – Maven
-Build and package a Java application using Maven.
+## 📌 Overview
 
-## Lab 3 – Docker
-Containerize a Spring Boot application using Docker.
+This repository contains hands-on lab implementations completed as part of the  
+**iVolve Cloud DevOps Accelerator Program**.
+
+The labs focus on applying core DevOps principles through practical exercises covering:
+- Java build automation
+- Dependency management
+- Application packaging
+- Containerization using Docker
+
+Each lab is structured to reflect **real-world DevOps workflows** and best practices.
+
+---
 
