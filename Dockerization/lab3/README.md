@@ -32,7 +32,7 @@ git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 cd Docker-1
 ```
 
-![Clone Spring Boot App](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-49-04.png)
+![Clone Spring Boot App](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Dockerization/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-49-04.png)
 
 ### 3. Write a Dockerfile for the application
 ```bash
@@ -69,7 +69,7 @@ ENTRYPOINT ["java","-jar","/app/app.jar"]
 docker build -t app1:1.0 .
 ```
 
-![Build Docker Image](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-50-20.png)
+![Build Docker Image](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Dockerization/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-50-20.png)
 
 ### 4. Run the Container
 
@@ -77,13 +77,13 @@ docker build -t app1:1.0 .
 docker run -d --name container1 -p 8080:8080 app1:1.0
 docker ps
 ```
-![Run Docker Container](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-47-34.png)
+![Run Docker Container](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Dockerization/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-47-34.png)
 
 ### 5. Verify the application is accessible
 ```bash
 curl -v http://localhost:8080/
 ```
-![Verify the application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-46-26.png)
+![Verify the application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Dockerization/lab3/lab3_screenshots/Screenshot%20from%202026-01-13%2014-46-26.png)
 
 ### 6. Stop and delete the container
 ```bash
