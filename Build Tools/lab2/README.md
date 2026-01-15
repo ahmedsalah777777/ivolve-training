@@ -31,29 +31,29 @@ sudo apt install -y maven
 ```bash
 mvn -v
 ```
-![Verify Maven Installation](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-36-59.png)
+![Verify Maven Installation](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-36-59.png)
 
 ### 2. Clone the Application Repository 📥
 ```bash
 git clone https://github.com/Ibrahim-Adel15/build2.git
 cd build2/
 ```
-![Cloning  App Repository](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-29-53.png)
+![Cloning  App Repository](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-29-53.png)
 
 ### 3. Run Unit Tests 🧪
 ```bash
 mvn test
 ```
-![Running Unit Tests](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-31-40.png)
+![Running Unit Tests](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-31-40.png)
 
 ### 4. Build the Application 🏗️
 ```bash
 mvn package
 ```
-![Building the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-32-23.png)
+![Building the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-32-23.png)
 
 ### 5. Run the Application ▶️
 ```bash
 java -jar target/hello-ivolve-1.0-SNAPSHOT.jar
 ```
-![Running the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-32-51.png)
+![Running the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab2/lab2_screenshots/Screenshot%20from%202026-01-13%2013-32-51.png)
