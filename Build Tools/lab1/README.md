@@ -39,28 +39,28 @@ sudo apt install -y gradle
 ```bash
 gradle -v
 ```
-![Verify Gradle Installation](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-24-30.png)
+![Verify Gradle Installation](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-24-30.png)
 
 ### 2. Clone the Application Repository
 ```bash
 git clone https://github.com/Ibrahim-Adel15/build1.git
 cd build1/
 ```
-![Clonin App Repository](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-25-52.png)
+![Clonin App Repository](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-25-52.png)
 ### 3. Run Unit Tests
 ```bash
 gradle clean test
 ```
-![Running Unit Tests](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-27-51.png)
+![Running Unit Tests](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-27-51.png)
 
 ### 4. Build the Application
 ```bash
 gradle build
 ```
-![Building the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-28-31.png)
+![Building the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-28-31.png)
 
 ### 5. Run the Application
 ```bash
 java -jar ./build/libs/ivolve-app.jar
 ```
-![Running the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-29-13.png)
+![Running the Application](https://github.com/ahmedsalah777777/ivolve-training/blob/main/Build%20Tools/lab1/lab1_screenshots/Screenshot%20from%202026-01-13%2013-29-13.png)
